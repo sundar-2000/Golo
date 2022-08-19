@@ -1,0 +1,28 @@
+{
+  "name": "golo",
+  "version": "1.0.0",
+  "description": "Go Solo",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "server/index.js"
+  },
+  "author": "Sundar",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/inert": "^7.0.0",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^7.0.0",
+    "amqplib": "^0.10.2",
+    "cors": "^2.8.5",
+    "hapi-swagger": "^14.5.5",
+    "joi": "^17.6.0",
+    "node-fetch": "^3.2.10",
+    "pg": "^8.7.3",
+    "redis": "^3.1.2",
+    "twilio": "^3.80.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
